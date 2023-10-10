@@ -1,0 +1,109 @@
+    body {
+        font-family: 'Dosis', sans-serif;
+        font-family: 'Inter', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        margin-top: 64px;
+        padding: 0;
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+        justify-content: center;
+        
+    }
+ 
+
+    #text p {
+        width: 540px;
+        height: 107px;
+        margin-top: 21px;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        color: #828282;
+        font-size: 15px;
+    }
+    
+    .complete {
+        color: #3F3D56;
+
+    }
+
+    .Flutuar {
+        color: #828282;
+    }
+
+    .amazing {
+        color: #3F3D56;
+    }
+
+    #text2 {
+        font-family: 'Open Sans', sans-serif;
+        margin-top: 0px;
+        color: #828282;
+        font-size: 15px;
+
+
+    }
+
+    h1 {
+        color: #3F3D56;
+        font-family: 'Dosis', sans-serif;
+        font-size: 32px;
+        margin-bottom: 16px;
+        
+    } 
+    h1 span {
+        color: #EE24FF;
+
+    }
+
+    #globe img {
+        margin: auto;
+    }
+    #line {
+        width: 391px;
+        height: 0px;
+
+        margin-top: 64px;
+
+        border: 1px solid #ECEFF2;
+    }
+
+    #footer {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 15px;
+        text-decoration: none;
+        margin-top: 16px;
+        color: #3F3D56;
+    }
+    #footer a {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 15px;
+        text-decoration: none;
+        color: #3F3D56;
+
+    }
+
+    #footer a + a{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 15px;
+        margin-left: 28px;
+        margin-bottom: 0px;
+        text-decoration: none;
+        color: #3F3D56;
+    }
+    #wave {
+        width: 100%;
+        height: 104px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        z-index: -1;
+    }
+@media screen and (max-width: 768px) {
+    #wave {
+        display: none; 
+    }
+}
